@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: cursive;
+}
+body {
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+.heading {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: #00d5ffdb;
+}
+.container {
+  height: 520px;
+  width: 350px;
+  border: 2px solid transparent;
+  background-color: #fcfcfc;
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(175, 162, 162, 0.695);
+}
+.display {
+  height: 90px;
+  width: 340px;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 10px 5px;
+  border-style: hidden;
+}
+.input {
+  height: 90%;
+  width: 100%;
+  text-align: end;
+  background-color: rgba(69, 190, 238, 0.5);
+  color: #000;
+  border-radius: 50px;
+  border: 2px solid black;
+  border-style: hidden;
+  font-size: 40px;
+}
+.functions {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  margin: 10px 7px;
+}
+.row {
+  height: 75px;
+  width: 98%;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.button {
+  height: 95%;
+  width: 30%;
+  margin: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgb(35, 40, 35);
+}
+.blue {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(10, 10, 45);
+  color: aliceblue;
+  border-style: hidden;
+}
+.orange {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  border-style: hidden;
+}
+.red {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(255, 170, 0);
+  color: rgb(254, 254, 254);
+  border-style: hidden;
+}
+.black {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(109, 103, 103);
+  color: #000;
+  border-style: hidden;
+}
