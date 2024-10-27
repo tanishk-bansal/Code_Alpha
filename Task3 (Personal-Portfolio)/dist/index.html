@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Prociono&display=swap" rel="stylesheet">
+  </head>
+  <body class="overflow-x-hidden font-Outfit leading-8">
+    <!-- NAVIGATION BAR -->
+    <div>
+
+    </div>
+    <nav
+      class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+      <!-- <h1 class="text-2xl cursor-pointer ml-14 font-bold">Tanishk</h1> -->
+       <img src="./Images/name-logo.png" alt="Logo" class="w-[115px] cursor-pointer mr-14">
+      <ul
+        class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-slate-50 shadow-lg shadow-zinc-300 bg-opacity-50 font-Ovo font-medium">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+
+      <!-- <div class="flex items-center gap-4">
+        <button><i class="fa-regular fa-moon fa-xl"></i></button> -->
+
+        <a
+          href="#no"
+          class="hidden lg:flex items-center gap-3 px-10 py-2 border border-gray-500 rounded-full ml-4 font-Ovo"
+          >Contact<i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+
+        <button id="bars" class="block md:hidden ml-3"><i class="fa-solid fa-bars-staggered fa-lg"></i></button>
+      </div>
+
+      <!-- mobile menu -->
+
+      <ul id="sideMenu" class="flex md:hidden flex-col font-semibold gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo">
+        
+        <div id="cross" class="absolute right-6 top-6 cursor-pointer">
+            <i class="fa-solid fa-x fa-lg"></i>
+        </div>
+
+        <li><a href="#top" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About Me</a></li>
+        <li><a href="#services" onclick="closeMenu()">Services</a></li>
+        <li><a href="#work" onclick="closeMenu()">My Work</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact Me</a></li>
+      </ul>
+
+    </nav>
+
+    <!----------- HEADER SECTION ------------->
+
+    <div class="w-11/12 max-w-3xl text-center mx-auto h-[95vh] flex flex-col items-center justify-center gap-4">
+        <img src="./Images/IMG_20241025_152646.jpg" alt="" class="w-40 h-40 rounded-full">
+        <h3 class="text-xl md:text-2xl mb-3">Hi! I'm Tanishk Bansal </h3>
+        <h1 class="text-3xl sm:text-6xl lg:text-[55px] font-Ovo">WEB DESIGNER & FRONTEND WEB DEVELOPER.</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center gap-4  mt-4">
+            <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#16222A] to-[#3A6073] text-white flex items-center gap-1">Contact Me <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
+
+            <a href="./Images/Tanishk-Bansal-Resume.pdf" target="_blank" class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#16222A] to-[#3A6073] text-white flex items-center gap-1">Download CV<i class="fa-solid fa-circle-down"></i></a>
+
+        </div>         
+        
+    </div>
+
+    <!---- ABOUT ME------>
+
+    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
+        <!-- <h4 class="text-center mb-2  text-lg">Introduction</h4> -->
+        <h2 class="text-center text-5xl font-prociono">About Me</h2>
+
+        <div class="flex w-full  flex-col lg:flex-row items-center gap-20 my-20">
+            <div class="max-w-max mx-auto relative">
+                <img src="./Images/Background.jpeg" alt="" class="w-64 sm:w-80 rounded-xl max-w-none">
+
+                <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
+                    <img src="./Images/FedText.png" alt="" class="w-full animate-spin_slow">
+                    <img src="./Images/Background.jpeg" alt="" class="h-16 w-16 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                </div>
+
+            </div>
+
+            <div class="flex-1">
+                <p class="mb-10 max-w-2xl  font-Ovo">
+                Hello! 👋 I'm <b><i>Tanishk Bansal</i></b> a passionate and motivated frontend web developer eager to kickstart my career in the world of web development. As a recent graduate with a<b><i> Bachelor Degree in Computer Applications or Training in Frontend Web Development</i></b>. I bring fresh perspectives and a hunger to learn to every project I undertake. During my studies, I immersed myself in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> mastering the fundamentals of building responsive and visually appealing websites...
+                </p>
+
+                <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                        <i class="fa-solid fa-code fa-2xl" style="color: #1e3654;"></i>
+                        <h3 class="my-4 font-semibold text-gray-700 text-lg">Languages</h3>
+                        <p class="text-gray-600 text-base">HTML, CSS, JavaScript, React Js, Tailwind CSS</p>
+                    </li>
+
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                        <i class="fa-solid fa-graduation-cap fa-2xl" style="color: #1e3654;"></i>
+                        <h3 class="my-4 font-semibold text-gray-700 text-lg">Education</h3>
+                        <p class="text-gray-600 text-base">Bachelor of Computer Applications</p>
+                    </li>
+
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                        <i class="fa-solid fa-briefcase fa-2xl" style="color: #1e3654;"></i>
+                        <h3 class="my-4 font-semibold text-gray-700 text-lg">Projects</h3>
+                        <p class="text-gray-600 text-base">Built more than 5 projects</p>
+                    </li>
+                </ul>
+
+                <h4 class="my-6 text-gray-700 font-semibold font-Ovo">Tools i use :-</h4>
+
+                <ul class="flex items-center gap-3 sm:gap-5">
+                    <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-800 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[2px_2px_0_#010]">
+                        <img src="./Images/vscode.jpeg" alt="" class="w-5 sm:w-7">
+                    </li>
+
+                    <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-800 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[2px_2px_0_#010]">
+                        <img src="./Images/react.png" alt="" class="w-5 sm:w-7">
+                    </li>
+
+                    <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-800 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[2px_2px_0_#010]">
+                        <img src="./Images/figma.png" alt="" class="w-5 sm:w-7">
+                    </li>
+
+                    <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-800 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[2px_2px_0_#010]">
+                        <img src="./Images/gitbash.png" alt="" class="w-5 sm:w-7">
+                    </li>
+
+                    <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-800 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[2px_2px_0_#010]">
+                        <img src="./Images/tailwind.png" alt="" class="w-5 sm:w-7">
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!------SERVICES-------->
+    <section id="services" class="w-full px-[12%] py-10 scroll-mt-20">
+
+        <h2 class="text-center text-5xl font-prociono">My Services</h2>
+        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 leading-7 font-Ovo">My journey into web development began with a curiosity about how websites come to life and a fascination with the power of code to transform ideas into interactive experiences.</p>
+
+        <div class="grid grid-cols-auto gap-6 my-10">
+            <div class="border border-gray-400 rounded-lg px-8 py-12 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] cursor-pointer">
+                <img src="./Images/web-logo.png" alt="" class="w-10">
+                <h3 class="text-lg my-4 text-gray-800 font-semibold">Web Design</h3>
+                <p class="text-base text-gray-600 leading-6">I design websites that look nice and are easy to use. They work well on computers, tablets, and phones...</p>
+            </div>
+
+            <div class="border border-gray-400 rounded-lg px-8 py-12 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] cursor-pointer">
+                <img src="./Images/m-logo.png" alt="" class="w-10">
+                <h3 class="text-lg my-4 text-gray-800 font-semibold">Responsive</h3>
+                <p class="text-base text-gray-600 leading-6">Develop websites that adapt seamlessly to different screen sizes and devices, including desktops, tablets, and smartphones...</p>
+            </div>
+
+            <div class="border border-gray-400 rounded-lg px-8 py-12 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] cursor-pointer">
+                <img src="./Images/creative-logo.png" alt="" class="w-10">
+                <h3 class="text-lg my-4 text-gray-800 font-semibold">Creative</h3>
+                <p class="text-base text-gray-600 leading-6">Tailored designs that capture the essence of your brand and engage your audience on a deeper level...</p>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!--------MY WORK----------->
+
+    <section id="work" class="w-full px-[12%] py-10 scroll-mt-20">
+        <h2 class="text-center text-5xl font-prociono">My latest work</h2>
+        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 leading-7 font-Ovo">Welcome to my web development portfolio! Explore a collection of projects showcasing my hard-working in front-end development.</p>
+
+        <div id="work" class=" grid grid-cols-auto my-10 gap-5">
+            <div class="border border-gray-400 rounded-lg aspect-square hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] bg-[url(./Images/bg-calculator.jpg)] bg-no-repeat bg-cover bg-center relative group">
+
+                <div class="bg-white w-10/12 rounded-md absolute bottom-6 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <a href="https://basic-calculator-delta-dun.vercel.app/" target="_blank"><i class="fa-solid fa-eye fa-lg"></i></a>
+                    </div>
+                    <h2 class="font-medium">Basic Calculator</h2>
+                    <div>
+                        <a href="https://github.com/tanishk-bansal/Calculator" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-gray-400 rounded-lg aspect-square hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] bg-[url(./Images/bg-musicplayer.jpeg)] bg-no-repeat bg-cover bg-center relative group">
+
+                <div class="bg-white w-10/12 rounded-md absolute bottom-6 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <a href="https://tanishk-music-player.vercel.app/" target="_blank"><i class="fa-solid fa-eye fa-lg"></i></a>
+                    </div>
+                    <h2 class="font-medium">Music Player</h2>
+                    <div>
+                        <a href="https://github.com/tanishk-bansal/Music-Player" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-gray-400 rounded-lg aspect-square hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] bg-[url(./Images/bg-digital-clock.jpeg)] bg-no-repeat bg-cover bg-center relative group">
+
+                <div class="bg-white w-10/12 rounded-md absolute bottom-6 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <a href="https://digital-clock-smoky-five.vercel.app/" target="_blank"><i class="fa-solid fa-eye fa-lg"></i></a>
+                    </div>
+                    <h2 class="font-medium">Digital Clock</h2>
+                    <div>
+                        <a href="https://github.com/tanishk-bansal/Digital-Clock" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-gray-400 rounded-lg aspect-square hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#100] bg-[url(./Images/bg-amazon.jpeg)] bg-no-repeat bg-cover bg-center relative group">
+
+                <div class="bg-white w-10/12 rounded-md absolute bottom-6 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <a href="https://amazon-project-wine.vercel.app/" target="_blank"><i class="fa-solid fa-eye fa-lg"></i></a>
+                    </div>
+                    <h2 class="font-medium">Amazon Clone</h2>
+                    <div>
+                        <a href="https://github.com/tanishk-bansal/Amazon-Clone" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="w-max flex items-center justify-center gap-2 text-gray-800 border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-16 font-medium hover:bg-[#fcf4ff] duration-300">Show More<i class="fa-solid fa-arrow-down fa-lg" style="color: #000021;"></i></a>
+
+    </section>
+
+
+
+<!------------------CONTACT--------------------->
+
+    <div id="contact" class="w-full px-[12%] py-10 scroll-mt-20">
+            <h4 class="text-center mb-2 text-lg font-Ovo ">Connect with me</h4>
+            <h2 class="text-center text-5xl font-prociono">Get in Touch</h2>
+            <p class="text-center max-w-2xl mx-auto mt-5 mb-12 leading-7 font-Ovo">I'm always open to new opportunities. Feel free to <b>Contact Me!</b> </p>
+            <form method="post" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto ">
+                <input type="hidden" name="access_key" value="f7624a9b-47e2-4097-8ecd-b071cf58a813">
+                <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
+                    <input type="text" placeholder="Enter your name" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white" required name="name">
+
+                    <input type="email" placeholder="Enter your email" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white" required name="
+                    email">
+                </div>
+                <textarea rows="6" placeholder="Enter your message" class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6" required name="message"></textarea>
+
+                <button class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white font-medium rounded-full mx-auto hover:bg-black duration-500">Send<i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+    </div>
+
+    <!---------FOOTER----------->
+
+    <div class="mt-20">
+        <div class="text-center text-gray-800 text-3xl font-bold mx-auto mb-2">
+            Tanishk
+        </div>
+        <div class="w-max flex items-center gap-2 mx-auto text-lg font-normal text-gray-700">
+            <i id="no" class="fa-regular fa-envelope fa-lg"></i>
+            tanishkbansal0907@gmail.com,
+            <p>8685049025</p>
+        </div>
+
+        <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
+            <p>© Tanishk Bansal. All rights reserved.</p>
+            <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+                <li><a href="https://github.com/tanishk-bansal" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/tanishk-bansal-4a0894301" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/ishq_bxnsxl?igsh=MTBjcDZudmx2MnhmMw==" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
